@@ -1,0 +1,113 @@
+@charset "utf-8";
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.jd_container{
+    max-width: 640px;
+    min-width: 320px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 44px;
+}
+
+
+.jd_header{
+    width: 100%;
+    height: 44px;
+    background-image: linear-gradient(#fff, #ccc);
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.jd_header .back,
+.jd_header .menu{
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top:0;
+    padding: 12px;
+    background-clip: content-box;
+    background-origin: content-box;
+}
+.jd_header .back{
+    left: 0;
+    background-position: -20px 0;
+}
+.jd_header .menu {
+    right: 0;
+    background-position: -60px 0;
+}
+.jd_header .search{
+    height: 44px;
+    margin: 0 44px;
+}
+.jd_header .search input{
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    margin-top: 7px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.jd_main{
+    width: 100%;
+    height: 100%;
+}
+.jd_main .nav{
+    width: 90px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+.jd_main .nav li{
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-right:1px solid #f23030;
+    border-bottom:1px solid #f23030;
+    background-color: pink;
+}
+.jd_main .nav  .now{
+    background-color: #f5f5f5;
+    border-right: none;
+}
+
+.jd_main .nav li.now a {
+    color: #f23030;
+}
+.jd_main .nav li a {
+    color: #000;
+}
+
+
+.jd_main .content{
+    height: 100%;
+    overflow: hidden;
+}
+.jd_main .content .img_box{
+    padding: 10px;
+}
+
+.jd_main .content h3 {
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.jd_main .content li{
+    float: left;
+    width: 33.3%;
+}
+.jd_main .content ul img{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+.jd_main .content ul p{
+    text-align: center;
+    line-height: 30px;
+}
